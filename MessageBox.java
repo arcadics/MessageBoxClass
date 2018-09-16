@@ -1,4 +1,4 @@
-package com.arcadics.testlistctrl.dlg;
+package com.arcadics.dlg;
 
 /*MessageBox класс.
 Пример использования:
