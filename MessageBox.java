@@ -99,7 +99,7 @@ public class MessageBox extends DialogFragment{
         try{
             mInputListener = listener;
         }catch (ClassCastException e){
-            String LOG_TAG = "LiteScanner";
+            String LOG_TAG = "TestMsgBox";
             Log.d(LOG_TAG, "onAttach: ClassCastException " + e.getMessage());
         }
     }
