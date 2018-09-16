@@ -17,7 +17,7 @@ Java Message box test
 		public void OnDialogResultListener(String dlgTag, int dialogResult) {
         		Toast toast;
         		if (dlgTag.equals("ImportData")) {
-            			if (dialogResult == MessageBox.DialogResultOK) {
+            		     if (dialogResult == MessageBox.DialogResultOK) {
                 		     toast = Toast.makeText(getActivity().getApplicationContext(),
                         	     "Запущена процедура импорта данных", Toast.LENGTH_LONG);
                 		     toast.show();
