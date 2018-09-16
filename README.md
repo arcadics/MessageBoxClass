@@ -3,7 +3,7 @@ Java Message box test
 
 Пример использования:
 
-	public class TestMsg extends FragmentBase implements MessageBox.IMessageBox{
+	public class TestMsg extends Fragment implements MessageBox.IMessageBox{
 		@Override
 		public void onClick(View v) {
 			MessageBox msg = new MessageBox("Ипорт данных", "Загрузить или обновить базу данных?", "ImportData");
